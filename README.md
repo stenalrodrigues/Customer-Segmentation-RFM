@@ -91,39 +91,42 @@ Python was then used to apply K-Means clustering to the RFM features and identif
 
 ## 📊 Key Results
 
-The analysis identified 4,338 customers for customer-level segmentation.
+The analysis identified **4,338 customers** for customer-level segmentation.
 
-Different values of K were evaluated using the Silhouette Score. The best result was:
+Different values of **K** were evaluated using the Silhouette Score. The best result was:
 
-Optimal K: 2
+- **Optimal K:** 2
+- **Silhouette Score:** 0.4328
 
-Silhouette Score: 0.4328
+### Final Customer Segments
 
-Final Customer Segments
-Customer Segment	Customers	Avg. Recency	Avg. Frequency	Avg. Monetary
-High-Value Loyal Customers	1,666	25.89 days	8.44	£4,539.60
-Inactive Low-Value Customers	2,672	134.09 days	1.67	£495.59
-💡 Business Insights
-High-Value Loyal Customers
+| Customer Segment | Customers | Avg. Recency | Avg. Frequency | Avg. Monetary |
+|---|---:|---:|---:|---:|
+| High-Value Loyal Customers | 1,666 | 25.89 days | 8.44 | £4,539.60 |
+| Inactive Low-Value Customers | 2,672 | 134.09 days | 1.67 | £495.59 |
+
+### 💡 Business Insights
+
+#### High-Value Loyal Customers
 
 These customers purchase more frequently, have purchased more recently, and generate significantly higher monetary value.
 
-## Recommended strategies:
+**Recommended strategies:**
+- Loyalty rewards
+- Personalized offers
+- VIP programs
+- Cross-selling and upselling
 
-Loyalty rewards
-Personalized offers
-VIP programs
-Cross-selling and upselling
-Inactive Low-Value Customers
+#### Inactive Low-Value Customers
 
 This segment represents a large portion of the customer base and shows lower purchasing frequency and monetary value.
 
-## Recommended strategies:
+**Recommended strategies:**
+- Win-back campaigns
+- Personalized discounts
+- Re-engagement emails
+- Targeted product recommendations
 
-Win-back campaigns
-Personalized discounts
-Re-engagement emails
-Targeted product recommendations
 📂 Repository Structure
 Customer-Segmentation-RFM/
 │
