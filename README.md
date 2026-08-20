@@ -369,7 +369,6 @@ I learned how to:
 * Interpret customer segments
 * Connect data analysis results with possible business strategies
 
-One thing I learned from this project is that using a machine-learning algorithm is only one part of the analysis. Understanding **what the results mean and how a business could use them** is equally important.
 ---
 
 # 👤 About Me
