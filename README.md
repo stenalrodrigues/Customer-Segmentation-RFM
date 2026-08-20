@@ -35,24 +35,24 @@ The project combines **SQL and Python** to perform data cleaning, exploratory an
 
 ## 🔄 Project Workflow
 
-**Raw Retail Data**
-⬇️
-**Data Quality Checks**
-⬇️
-**Data Cleaning & Preprocessing**
-⬇️
-**Exploratory Data Analysis**
-⬇️
-**RFM Analysis**
-⬇️
-**RFM Scoring**
-⬇️
-**Customer Segmentation**
-⬇️
-**K-Means Clustering**
-⬇️
-**Segment Profiling**
-⬇️
+**Raw Retail Data**  
+⬇️  
+**Data Quality Checks**  
+⬇️  
+**Data Cleaning & Preprocessing**  
+⬇️  
+**Exploratory Data Analysis**  
+⬇️  
+**RFM Analysis**  
+⬇️  
+**RFM Scoring**  
+⬇️  
+**Customer Segmentation**  
+⬇️  
+**K-Means Clustering**  
+⬇️  
+**Segment Profiling**  
+⬇️  
 **Business Insights & Recommendations**
 
 ---
