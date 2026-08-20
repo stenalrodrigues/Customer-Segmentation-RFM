@@ -37,12 +37,15 @@ This project uses the **Online Retail Dataset** from the UCI Machine Learning Re
 
 The dataset contains **541,909 transaction records** from a UK-based online retailer between December 2010 and December 2011.
 
-Due to the large size of the original dataset, the complete dataset is not included in this repository.
+Due to the large size of the original dataset, the complete dataset is not included in this repository. 
+A representative sample of the dataset is provided in the repository as Online Retail DATA - Sample.csv for reference and reproducibility.
+
+The full dataset was used for the analysis and customer segmentation results reported in this project.
 
 **Dataset Source:**  
 [UCI Machine Learning Repository – Online Retail Dataset](https://archive.ics.uci.edu/dataset/352/online+retail)
 
-The full dataset was used for the analysis and customer segmentation results reported in this project.
+
 ---
 
 ## 🔄 Project Workflow
@@ -128,9 +131,8 @@ Two complementary segmentation approaches were used in this project.
 
 ### SQL-Based RFM Segmentation
 
-SQL-based RFM scoring was used to create **interpretable, rule-based customer segments** such as Champions, Loyal Customers, At Risk, Lost Customers, and other behavioral categories.
-
-This approach provides clear business rules that can be easily understood and applied by marketing and customer-retention teams.
+SQL RFM Segmentation uses business-defined rules to create interpretable behavioral segments, while Python K-Means Clustering uses an unsupervised machine-learning approach to identify natural groupings in customer behavior. 
+The two approaches serve different analytical purposes and are not expected to produce identical segment labels.
 
 ### Python-Based K-Means Segmentation
 
@@ -152,20 +154,18 @@ The analysis identified **4,338 customers** for customer-level segmentation.
 Different values of **K** were evaluated using the Silhouette Score, with **K = 2** producing the best clustering result.
 
 ### K-Means Results
-
-| Metric             | Result |
-| ------------------ | -----: |
-| Customers Analyzed |  4,338 |
-| Optimal K          |      2 |
-| Silhouette Score   | 0.4328 |
+| Metric | Result |
+|---|---:|
+| Customers Analyzed | 4,338 |
+| Optimal K | 2 |
+| Silhouette Score | 0.4328 |
 
 ### Final Customer Segments
 
-| Customer Segment             | Customers | Avg. Recency | Avg. Frequency | Avg. Monetary |
-| ---------------------------- | --------: | -----------: | -------------: | ------------: |
-| High-Value Loyal Customers   |     1,666 |   25.89 days |           8.44 |     £4,539.60 |
-| Inactive Low-Value Customers |     2,672 |  134.09 days |           1.67 |       £495.59 |
-
+| Customer Segment | Customers | Avg. Recency | Avg. Frequency | Avg. Monetary |
+|---|---:|---:|---:|---:|
+| High-Value Loyal Customers | 1,666 | 25.89 days | 8.44 | £4,539.60 |
+| Inactive Low-Value Customers | 2,672 | 134.09 days | 1.67 | £495.59 |
 ---
 
 ## 💡 Business Insights
@@ -193,9 +193,7 @@ This segment represents a large portion of the customer base and shows lower pur
 * Re-engagement emails
 * Targeted product recommendations
 * Limited-time offers
-
 ---
-
 ## 📂 Repository Structure
 
 ```text
