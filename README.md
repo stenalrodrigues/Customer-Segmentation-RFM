@@ -16,7 +16,6 @@ Through this project, I wanted to answer a few questions:
 
 At the end, I used the results to suggest some simple customer retention and re-engagement strategies.
 
----
 
 ## 🎯 Business Objectives
 
@@ -30,7 +29,6 @@ The main objectives of this project were to:
 * Compare rule-based segmentation with K-Means clustering
 * Suggest possible strategies for different customer groups
 
----
 
 ## 🛠️ Tools & Technologies
 
@@ -44,7 +42,6 @@ The main objectives of this project were to:
 * **Jupyter Notebook**
 * **K-Means Clustering**
 
----
 
 ## 📂 Dataset
 
@@ -59,7 +56,6 @@ The full dataset was used for the analysis and the results shown in this project
 **Dataset Source:**
 [UCI Machine Learning Repository – Online Retail Dataset](https://archive.ics.uci.edu/dataset/352/online+retail)
 
----
 
 # 🔄 Project Workflow
 
@@ -84,8 +80,6 @@ Segment Analysis
        ↓
 Business Insights
 ```
-
----
 
 # 🗄️ SQL Analysis
 
@@ -140,8 +134,6 @@ Some of the segments included:
 * Hibernating
 * Needs Attention
 
----
-
 # 🐍 Python Analysis
 
 I used Python for the exploratory analysis and machine-learning part of the project.
@@ -162,8 +154,6 @@ The notebook includes:
 * Silhouette Score analysis
 * Customer cluster profiling
 * Business recommendations
-
----
 
 # 🎯 Customer Segmentation
 
@@ -187,8 +177,6 @@ The SQL analysis creates segments such as:
 * Hibernating
 * Needs Attention
 
----
-
 ## 2. K-Means Clustering
 
 For the second approach, I used **K-Means clustering** to group customers based on their RFM values.
@@ -210,7 +198,6 @@ I then looked at the average Recency, Frequency, and Monetary values of each clu
 
 The cluster names are my interpretation of the customer behavior. K-Means itself only creates the clusters; it does not give them names such as "High-Value Loyal Customers."
 
----
 
 # 📊 Key Results
 
@@ -230,8 +217,6 @@ After data cleaning and customer-level filtering, **4,338 customers** were inclu
 | ---------------------------- | --------: | -----------: | -------------: | ------------: |
 | High-Value Loyal Customers   |     1,666 |   25.89 days |           8.44 |     £4,539.60 |
 | Inactive Low-Value Customers |     2,672 |  134.09 days |           1.67 |       £495.59 |
-
----
 
 # 💡 What I Found
 
@@ -258,7 +243,6 @@ I would consider these customers important for the business because they already
 
 The main focus would be to **keep these customers engaged and encourage them to continue purchasing**.
 
----
 
 ## 💤 Inactive Low-Value Customers
 
@@ -283,7 +267,6 @@ This suggests that many customers in this group have not purchased recently and 
 
 The main goal would be to **try to bring some of these customers back**.
 
----
 
 # 📈 Business Takeaways
 
@@ -293,7 +276,6 @@ A smaller group of customers is purchasing more frequently, purchasing more rece
 
 A larger group of customers is less active and contributes less revenue. Instead of sending the same campaign to everyone, a business could use customer segments to target different groups differently.
 
----
 
 # 🔍 SQL Segmentation vs K-Means
 
@@ -310,7 +292,6 @@ The SQL approach is based on **rules that can be explained easily**, while K-Mea
 
 Using both approaches helped me understand the difference between business-based segmentation and unsupervised machine learning.
 
----
 
 # 📂 Repository Structure
 
@@ -351,8 +332,6 @@ The SQL file contains:
 * Customer analysis
 * Product analysis
 
----
-
 # 🎓 What I Learned
 
 Working on this project helped me practice both technical and business-related skills.
@@ -369,7 +348,6 @@ I learned how to:
 * Interpret customer segments
 * Connect data analysis results with possible business strategies
 
----
 
 # 👤 About Me
 
