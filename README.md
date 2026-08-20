@@ -82,6 +82,11 @@ Silhouette Score analysis
 Customer segment profiling
 Business recommendations
 
+## Segmentation Approach
+
+Two segmentation approaches were used in this project. SQL-based RFM scoring was used to create interpretable, rule-based customer segments such as Champions, Loyal Customers, At Risk, and Lost Customers. 
+Python was then used to apply K-Means clustering to the RFM features and identify natural customer groupings. The optimal K-Means solution was K=2 with a Silhouette Score of 0.4328.
+
 ## 📊 Key Results
 
 The analysis identified 4,338 customers for customer-level segmentation.
