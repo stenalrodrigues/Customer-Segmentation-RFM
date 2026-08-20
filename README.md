@@ -27,24 +27,26 @@ Jupyter Notebook
 K-Means Clustering
 
 ## 🔄 Project Workflow
-Raw Retail Data
-      ↓
-Data Quality Checks
-      ↓
-Data Cleaning & Preprocessing
-      ↓
-Exploratory Data Analysis
-      ↓
-RFM Analysis
-      ↓
-RFM Scoring
-      ↓
-K-Means Clustering
-      ↓
-Customer Segmentation
-      ↓
-Business Insights & Recommendations
-🗄️ SQL Analysis
+
+**Raw Retail Data**  
+⬇️  
+**Data Quality Checks**  
+⬇️  
+**Data Cleaning & Preprocessing**  
+⬇️  
+**Exploratory Data Analysis**  
+⬇️  
+**RFM Analysis**  
+⬇️  
+**RFM Scoring**  
+⬇️  
+**Customer Segmentation**  
+⬇️  
+**K-Means Clustering**  
+⬇️  
+**Segment Profiling**  
+⬇️  
+**Business Insights & Recommendations**
 
 ## The SQL analysis covers:
 
