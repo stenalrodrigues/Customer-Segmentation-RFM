@@ -127,26 +127,9 @@ The Jupyter Notebook includes:
 
 ## 🎯 Segmentation Approach
 
-Two complementary segmentation approaches were used in this project.
-
-### SQL-Based RFM Segmentation
-
 SQL RFM Segmentation uses business-defined rules to create interpretable behavioral segments, while Python K-Means Clustering uses an unsupervised machine-learning approach to identify natural groupings in customer behavior. 
 The two approaches serve different analytical purposes and are not expected to produce identical segment labels.
-
-### Python-Based K-Means Segmentation
-
-Python was used to apply **K-Means clustering** to the RFM features and identify natural customer groupings based on purchasing behavior.
-
-Different values of **K** were evaluated using the Silhouette Score.
-
-The optimal K-Means solution was:
-
-* **Optimal K:** 2
-* **Silhouette Score:** 0.4328
-
 ---
-
 ## 📊 Key Results
 
 The analysis identified **4,338 customers** for customer-level segmentation.
