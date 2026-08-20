@@ -31,6 +31,18 @@ The project combines **SQL and Python** to perform data cleaning, exploratory an
 * Jupyter Notebook
 * K-Means Clustering
 
+## 📂 Dataset
+
+This project uses the **Online Retail Dataset** from the UCI Machine Learning Repository.
+
+The dataset contains **541,909 transaction records** from a UK-based online retailer between December 2010 and December 2011.
+
+Due to the large size of the original dataset, the complete dataset is not included in this repository.
+
+**Dataset Source:**  
+[UCI Machine Learning Repository – Online Retail Dataset](https://archive.ics.uci.edu/dataset/352/online+retail)
+
+The full dataset was used for the analysis and customer segmentation results reported in this project.
 ---
 
 ## 🔄 Project Workflow
@@ -54,6 +66,7 @@ The project combines **SQL and Python** to perform data cleaning, exploratory an
 **Segment Profiling**  
 ⬇️  
 **Business Insights & Recommendations**
+
 
 ---
 
